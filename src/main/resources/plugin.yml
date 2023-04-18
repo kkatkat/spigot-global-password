@@ -1,0 +1,11 @@
+name: Globalpassword
+version: '${version}'
+main: bg.hushcraft.globalpassword.Globalpassword
+api-version: 1.19
+authors: [ kkatkat ]
+description: Locks the server for unauthorized users by requesting a global password upon login
+commands:
+  setGlobalPassword:
+    description: 'Sets the global password for the server'
+  login:
+    description: 'Log in using the global server password'
