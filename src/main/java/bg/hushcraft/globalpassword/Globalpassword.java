@@ -23,6 +23,7 @@ public final class Globalpassword extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerLeaveListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerMoveListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerInteractListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerDropItemListener(), this);
 
         getCommand("setGlobalPassword").setExecutor(new SetPasswordCommand());
         getCommand("login").setExecutor(new LoginGlobalCommand());
